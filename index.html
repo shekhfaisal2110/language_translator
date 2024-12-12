@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Translator</title>
+    <link rel="icon" href="file/logo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="text">
+            <textarea name="" id="fromText" placeholder="enter text"></textarea>
+            <textarea name="" id="toText" placeholder="Translate" readonly></textarea>
+
+        </div>
+
+        <div class="selectArea">
+
+            <div class="select1" id="select">
+                <img src="./file/speaker.svg" alt="" class="speaker" id="from">
+                <img src="./file/copy.svg" alt="" class="copy" id="from">
+                <select name="" id="firstSelect" class="langSelect">
+                </select>
+            </div>
+
+            <div class="select2" id="select">
+                <img src="./file/speaker.svg" alt="" class="speaker" id="from">
+                <img src="./file/copy.svg" alt="" class="copy" id="from">
+                <select name="" id="SecSelect" class="langSelect">
+                </select>
+            </div>
+
+        </div>
+
+        <button id="tranfer">Translate</button>
+
+    </div>
+
+    <script src="./script/counties.js"></script>
+    <script src="./script/app.js"></script>
+</body>
+</html>
